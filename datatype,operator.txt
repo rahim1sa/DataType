@@ -1,14 +1,42 @@
 Deyisen nedir?
-Deyisen programin islemesi ucun lazim olan melumatlarin teyin olunaraq yaddasda saxlanilan bolgeye verilen addir. C# da deyisenler istifade edilmeden evvel teyin olunmalidir. Teyin edilme hemin yaddasda saxlanilacaq olan melumatin novunun bildirilmesidir.Bir deyisenin teyininden sonra eyni novden deyer teyin etmek sertiyle deyeri deyisdirile biler.
-Melumat  novleri : C # dilinde melumatlarin tipleri deyer ve referans olmaqla 2-y? bolunur.Deyer tipleri:sbyte,short,int,long,byte,ushort,uint,ulong,float,double,decimal,bool,char.Referans tipleri:String,object.Melumat  novleri: deyisenleri muveqqeti olaraq saxladigimiz yerdir. Bu melumatlarin tipleri metn veya reqemsal ola biler .Proqramda bir deyisen teyin etdiyimiz zaman,o deyisene aid yaddasda yer ayrilir.Istifade etdiyimiz her deyisenin mutleq tipini tetin etmeliyik.en cox istifade edilen melumat novleri. 1)Integer m.tipi:bu m.t.-ni reqemsal ifadeler ucun istifade edirik ve kesrli sayi qebul etmir.Yaddasda ise "4Bayt"liq yer tutur.2)String m.t.: Metnli ifadeler ucun istifade edilir. String m.t. istifade edildiyi zaman mutleq "misal olaraq" bele qeyd edilmelidir.String referans tipli m.t olduguna gore herhansi deyer araligi yoxdur sadece yazilan metnin uzunluguna gore yer tutur.3)Byte m.t: Yalnizca tam deyer  alir. Integerden ferqli olaraq daha az yer tutur. Yaddasda "1Bayt"liq yer tutur.4)Long m.t.: Yalniz reqemsal ve tam deyerleri  yaddasda saxlaya bilir. yaddasda ise "8bayt"liq yer tutur.5)Char m.t.:Icinde sadece bir deyer saxlaya bilir bu deyer herf veya reqem ola biler.Bu tipe elave olunacaq deyerler her zzaman 'tek dirnaq' yazilmalidir.Yaddasda "2bayt"liq yer tutur.6)Float,double,decimal m.t:Ucude kesirli sayilari yaddasda saxlamaq ucun istifade olunur. Float-7 hedli sayilara qeder icaze veriri ve "4bayt"liq yer tutur.Double-16 hedli sayilara qeder icaze veriri ve "8bayt"liq yer tutur.Decimal-29 hedli sayilara qeder icaze verir ve "16bayt"liq yer tutur.
+Deyisen programin islemesi ucun lazim olan melumatlarin teyin olunaraq yaddasda saxlanilan bolgeye verilen 
+addir. C# da deyisenler istifade edilmeden evvel teyin olunmalidir. Teyin edilme hemin yaddasda saxlanilacaq 
+olan melumatin novunun bildirilmesidir.Bir deyisenin teyininden sonra eyni novden deyer teyin etmek sertiyle 
+deyeri deyisdirile biler.Melumat  novleri : C # dilinde melumatlarin tipleri deyer ve referans olmaqla 2-ye 
+bolunur.Deyer tipleri:sbyte,short,int,long,byte,ushort,uint,ulong,float,double,decimal,bool,char.Referans 
+tipleri:String,object.Melumat  novleri: deyisenleri muveqqeti olaraq saxladigimiz yerdir. Bu melumatlarin 
+tipleri metn veya reqemsal ola biler .Proqramda bir deyisen teyin etdiyimiz zaman,o deyisene aid yaddasda yer 
+ayrilir.Istifade etdiyimiz her deyisenin mutleq tipini tetin etmeliyik.en cox istifade edilen melumat novleri. 
+1)Integer m.tipi:bu m.t.-ni reqemsal ifadeler ucun istifade edirik ve kesrli sayi qebul etmir.Yaddasda ise 
+"4Bayt"liq yer tutur.2)String m.t.: Metnli ifadeler ucun istifade edilir. String m.t. istifade edildiyi zaman 
+mutleq "misal olaraq" bele qeyd edilmelidir.String referans tipli m.t olduguna gore herhansi deyer araligi 
+yoxdur sadece yazilan metnin uzunluguna gore yer tutur.3)Byte m.t: Yalnizca tam deyer  alir. Integerden ferqli 
+olaraq daha az yer tutur. Yaddasda "1Bayt"liq yer tutur.4)Long m.t.: Yalniz reqemsal ve tam deyerleri  yaddasda 
+saxlaya bilir. yaddasda ise "8bayt"liq yer tutur.5)Char m.t.:Icinde sadece bir deyer saxlaya bilir bu deyer 
+herf veya reqem ola biler.Bu tipe elave olunacaq deyerler her zzaman 'tek dirnaq' yazilmalidir.Yaddasda "2bayt"liq 
+yer tutur.6)Float,double,decimal m.t:Ucude kesirli sayilari yaddasda saxlamaq ucun istifade olunur. Float-7 
+hedli sayilara qeder icaze veriri ve "4bayt"liq yer tutur.Double-16 hedli sayilara qeder icaze veriri ve 
+"8bayt"liq yer tutur.Decimal-29 hedli sayilara qeder icaze verir ve "16bayt"liq yer tutur.
 Operatorlar: 
-Riyazi operatorlara: +, -, *, /, % uygundur. Bu operatorlar uygun olaraq toplama, cixma, vurma, bolme, qalig tapma emrlerini yerine yetirirler. Kodda evvel vurma, ondan sonra bolme, daha sonda ise toplama ve cixma (hansi once gelerse) yerine yeritirilir
-Mentiq operatorlari:Bu operatorlar bize iki deyer - true ve ya false qaytarir. Uc mentiq operatoru vardir: &&-ve, ||-ve ya, !-deyil (inkar)&& operatorundan true almaq ucun verilen melumatlarin hamisi dogru olmalidir. Hec olmasa bir sef melumat olarsa bize false qiymetini qaytaracaq. || bu operatordan true almaq ucun bir dorgu melumatin olmasi kifayetdir. Eger melumatlardan hamisi sefdirse, bize false qaytaracaq.! elde olan cavabi eksine cevirir. Eger melumat !true=false ve ya !false=true demekdir 
+Riyazi operatorlara: +, -, *, /, % uygundur. Bu operatorlar uygun olaraq toplama, cixma, vurma, bolme, qalig 
+tapma emrlerini yerine yetirirler. Kodda evvel vurma, ondan sonra bolme, daha sonda ise toplama ve cixma 
+(hansi once gelerse) yerine yeritirilir
+Mentiq operatorlari:Bu operatorlar bize iki deyer - true ve ya false qaytarir. Uc mentiq operatoru vardir: 
+&&-ve, ||-ve ya, !-deyil (inkar)&& operatorundan true almaq ucun verilen melumatlarin hamisi dogru olmalidir. 
+Hec olmasa bir sef melumat olarsa bize false qiymetini qaytaracaq. || bu operatordan true almaq ucun bir dorgu
+ melumatin olmasi kifayetdir. Eger melumatlardan hamisi sefdirse, bize false qaytaracaq.! elde olan cavabi 
+eksine cevirir. Eger melumat !true=false ve ya !false=true demekdir 
 Sert operatorlari : If ve else sert operatoridir. Yazilis sintaksisi beledir:
-	if (sert)
-	{
-	}
-	else
-	{
-	}
-	Eger if-e aid sert dogrudursa, if-in icindeki kodu yerine yetirir. Eger if-e aid kod sefdirse else-in daxilindeki kodu yerine yetirir. Bu operatorda da mentiq operatorlari kimi true ve ya false qiymetini qaytarir. Sert operatorlarinda If-e aid olan sertin dogru ve ya yalnis oldugunu Relational operatorlari ile yoxlayiriq. Relational operatorlar bunlardir.">" - soldaki deyisen boyukdurse, true qaytarir."<" - soldaki deyisen kicikdirse, true qaytarir.">=" - soldaki deyisen boyuk beraberdirse, true qaytarir."<=" - soldaki kicik beraberdirse, true qaytarir."==" - deyisenler beraberdirse, true qaytarir."!=" - deyisenler beraber deyilse, true qaytarir.
+if (sert)
+{
+}
+else
+{
+}
+Eger if-e aid sert dogrudursa, if-in icindeki kodu yerine yetirir. Eger if-e aid kod sefdirse else-in 
+daxilindeki kodu yerine yetirir. Bu operatorda da mentiq operatorlari kimi true ve ya false qiymetini qaytarir. 
+Sert operatorlarinda If-e aid olan sertin dogru ve ya yalnis oldugunu Relational operatorlari ile yoxlayiriq. 
+Relational operatorlar bunlardir.">" - soldaki deyisen boyukdurse, true qaytarir."<" - soldaki deyisen 
+kicikdirse, true qaytarir.">=" - soldaki deyisen boyuk beraberdirse, true qaytarir."<=" - soldaki kicik 
+beraberdirse, true qaytarir."==" - deyisenler beraberdirse, true qaytarir."!=" - deyisenler beraber deyilse, 
+true qaytarir.
